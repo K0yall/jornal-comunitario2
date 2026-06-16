@@ -1,0 +1,108 @@
+/* source/assets/style.css */
+:root {
+    --primary: #1a365d;
+    --accent: #d69e2e;
+    --text: #2d3748;
+    --bg: #f7fafc;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-bottom: 5px solid var(--accent);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+}
+
+header p {
+    margin: 0.5rem 0 0 0;
+    font-style: italic;
+    color: #e2e8f0;
+}
+
+main {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+}
+
+.welcome-card {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 6px rgba(26, 54, 93, 0.2);
+}
+
+.btn:hover {
+    background-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.tech-item {
+    background: #edf2f7;
+    padding: 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+    border-left: 4px solid var(--primary);
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-back:hover { 
+    color: var(--accent); 
+}
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: #718096;
+    border-top: 1px solid #e2e8f0;
+}

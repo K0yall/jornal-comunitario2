@@ -1,0 +1,21 @@
+=========================================================
+RELATÓRIO OPERACIONAL AUTOMATIZADO - INFRAESTRUTURA CLOUD
+Data/Hora: 2026-06-16 01:35:31
+Projeto: Portal de Notícias Comunitárias
+=========================================================
+
+--- Espaço em Disco ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         461G   99G  339G  23% /
+
+--- Últimos Backups Gerados ---
+total 16K
+-rw-r--r-- 1 root root 251 Jun 12 22:17 backup_jornal_2026-06-12_22-17.tar.gz
+-rw-r--r-- 1 root root 246 Jun 12 22:27 backup_jornal_2026-06-12_22-27.tar.gz
+-rw-r--r-- 1 root root 250 Jun 16 01:32 backup_jornal_2026-06-16_01-32.tar.gz
+-rw-r--r-- 1 root root 251 Jun 16 01:34 backup_jornal_2026-06-16_01-34.tar.gz
+
+--- Status Atual do Apache ---
+Instale ou ligue o Apache.
+
+=========================================================

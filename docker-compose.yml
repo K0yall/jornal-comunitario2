@@ -1,0 +1,10 @@
+services:
+  jornal-server:
+    build: .
+    container_name: trabalho03-linux
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
