@@ -15,4 +15,4 @@ WORKDIR /app
 # O Apache será instalado via script conforme os requisitos do trabalho
 EXPOSE 80
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["apache2ctl", "-D", "FOREGROUND"]
